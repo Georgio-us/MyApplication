@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: url('/static/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#background-arrow {
+    margin: 0 auto;
+    left: 535px;
+    top: 100px;
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+   
+}
+#background-arrow img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+  
+  #wheel {
+    width:562px;
+    height: 562px;
+    margin: 0 auto;
+    transition: transform 5s;  /* добавляем анимацию */
+}
+
+#wheel img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#spin-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#prize {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #get-gift-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
